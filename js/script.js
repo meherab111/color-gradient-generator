@@ -4,9 +4,9 @@ let button2 = document.getElementById("btn-2");
 
 let divInfo = document.querySelector(".bck-img-body");
 
-let color1 = "#34208d";
+let color1 = "#13678a";
 
-let color2 = "#613f5d"
+let color2 = "#dafdba"
 
 const funcHexValue = () => {
     let hexValue = "0123456789abcdef";
