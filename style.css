@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #fff;
+    font-size: 62.5%;
+}
+
+body {
+    width: min(1480px, 100% - 3rem);
+    margin-inline: auto;
+    font-family: "Urbanist", sans-serif;
+    background: linear-gradient(to right, #13678a, #dafdba);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.6rem;
+    margin-block: 4.8rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 4.8rem;
+    margin-bottom: 4.8rem;
+}
+
+
+
+.btn-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+button {
+
+    font-size: 1.8rem;
+
+    background-color: #31ad7e;
+    padding: 1.5rem 5.5rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+
+    &:hover {
+        box-shadow: inset 0 0 0 0.2rem #5bc99f;
+        background-color: transparent;
+        color: #ffffff;
+    }
+}
+
+section {
+    margin-block: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bck-img-body {
+
+    font-size: 1.7rem;
+    display: inline;
+    border-radius: 5px;
+    border-left: 2px solid white;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #ffffff2d;
+
+}
+
+span {
+    color: rgb(2, 47, 61);
+}
+
+@media (width <= 768px) {
+    section {
+        margin-block: 15rem;
+
+    }
+    button {
+        padding: 1.2rem 4.2rem;
+
+
+    }
+}
